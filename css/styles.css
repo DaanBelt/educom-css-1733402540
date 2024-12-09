@@ -95,3 +95,31 @@ a {
     flex-direction: row;
     border-radius: 50%;
 }
+
+/* Exercise 06-cascading */
+a {
+    font-size: 22px;
+    color: #F0F;
+}
+
+.cascading-parent1 h2 {
+    color: #FD0;
+}
+
+.cascading-parent1 a {
+    font-size: 32px;
+    color: #CCC;
+}
+
+.cascading-parent2 p {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue
+}
+
+.circle1 {
+    border-radius: 50%;
+}
