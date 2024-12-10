@@ -1,4 +1,4 @@
-/*unvisited link*/
+/* unvisited link */
 a:link {
     color: red;
 }
@@ -16,4 +16,43 @@ a:hover {
 /*selected link*/
 a:active {
     color: blue;
+}
+
+/* exercise 9-variables */
+:root {
+    --regular:"arial";
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lightest-brown: #aa4b1b;
+    
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #fff;
+    --black: #000;
+
+    --background-color: rgb(128, 0, 128);
+    --sqaure-width: 200px;
+    --square-height: 200px;
+    --square-margin: 10px;
+    --square-padding: 5px;
+    --square-font: "arial";
+    --color-font: white;
+    --square-display: inline-block;
+}
+
+h1 {
+    font-family: var(--regular);
+    color: var(--dark-brown);
+} 
+
+div {
+    background-color: var(--background-color);
+    width: var(--sqaure-width);
+    height: var(--square-height);
+    margin: var(--square-margin);
+    padding: var(--square-padding);
+    font-family: var(--square-font);
+    color: var(--color-font);
+    display: var(--square-display);
 }
