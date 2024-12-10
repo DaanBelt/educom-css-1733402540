@@ -123,3 +123,42 @@ a {
 .circle1 {
     border-radius: 50%;
 }
+
+/* exercise 7-mulitple classes */
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: indigo;
+    color: #FFF;
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
+}
+
+.div-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.div-position {
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-color {
+    background-color: red;
+    color: blue;
+}
+
+.div-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
