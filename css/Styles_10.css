@@ -1,4 +1,11 @@
 /* exercise 10-styling a button */
+:root {
+    --color: #FFF;
+    --background1: rgb(2,0,36);
+    --backgroundgradient1: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    --background2: rgb(0, 36, 10);
+    --backgroundgradient2: linear-gradient(90deg, rgb(7, 36, 0) 0%, rgb(9, 121, 16) 35%, rgb(162, 255, 0) 100%);
+}
 .button-container a {
     width: 200px;
     padding: 10px;
@@ -23,20 +30,19 @@
 .google-button a {
     width: 200px;
     padding: 10px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
-    color: white;
+    background: var(--background1);
+    background: var(--backgroundgradient1); 
+    color: var(--color);
     border-radius: 10px;
     text-decoration: none;
-    transition: all 1s ease;
-
     -webkit-box-shadow: 7px 3px 11px 10px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 3px 11px 10px rgba(0,0,0,0.75);
     box-shadow: 7px 3px 11px 10px rgba(0,0,0,0.75);
 }
 
 .google-button a:hover {
-    background: rgb(0, 36, 10);
-    background: linear-gradient(90deg, rgb(7, 36, 0) 0%, rgb(9, 121, 16) 35%, rgb(162, 255, 0) 100%); 
+    background: var(--background2);
+    background: var(--backgroundgradient2);
     text-decoration: none;
+    
 }
