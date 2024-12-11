@@ -1,0 +1,101 @@
+/* whole document */
+:root {
+    --color: #FFF;
+    --font-weight: bold;
+    --font-size: 25px;
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header section */
+.navigation {
+    width: 100%;
+    color: #000;
+    padding: 40px;
+}
+
+/* content section */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 50%;
+}
+
+.block {
+    background-color: #F00;
+    display: inline-block;
+    width: 32%;
+    height: 32%;
+    margin: 5px;
+    border: 0px solid transparent;
+    border-radius: 5%;
+    transition: all 0.3s ease;
+}
+
+.block:hover {
+    /* border: 5px solid transparent; */
+    width: 40%;
+    height: 40%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+}
+
+.block-rome {
+    background: url("https://imgc.artprintimages.com/img/print/bettmann-colosseum-archways_u-l-pzlxy20.jpg?background=F3F3F3");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
+
+.block-bruxelles {
+    background: url("https://pictureworthy.wordpress.com/wp-content/uploads/2015/01/20150127.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
+
+.block-newyork {
+    background: url("https://render.fineartamerica.com/images/rendered/default/poster/8/5.5/break/images/artworkimages/medium/2/new-york-city-black-white-crystal-wightman.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size);
+}
+
+/* footer section */
+.footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 40px;
+}
+
